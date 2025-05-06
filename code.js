@@ -1,14 +1,10 @@
 const title = [
-    "hai",
-    "hai dunia",
-    "hai inuda",
-    "hai adnui",
-    "hai nudai",
-    "hai udian",
-    "hai naidu",
-    "hai dunai",
-    "hai naidu",
-    "hai afdan"
+    "Welcome",
+    "Good Morning",
+    "Have a nice day",
+    "Nice outfit",
+    "Hello World!",
+    "Thankyou!"
 ];
 
 const color = [
@@ -17,7 +13,7 @@ const color = [
     "gold",
     "pink",
     "lightgray",
-    "aqua",
+    "aqua"
 ];
 
 // ambil elemen
