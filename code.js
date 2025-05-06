@@ -12,11 +12,11 @@ const title = [
 ];
 
 const color = [
-    "blue",
-    "red",
-    "yellow",
+    "skyblue",
+    "tomato",
+    "gold",
     "pink",
-    "gray",
+    "lightgray",
     "aqua",
 ];
 
@@ -32,12 +32,19 @@ function getRandomItem(array) {
 
 // anti judul
 TitleButton.addEventListener('click', function() {
-    const RandomTitle = getRandomItem(title);
+    let RandomTitle = getRandomItem(title);
     Output.textContent = RandomTitle;
 });
 
 // ganti warna
 TitleColor.addEventListener('click', function() {
-    const RandomColor = getRandomItem(color);
+    let RandomColor = getRandomItem(color);
     Output.style.backgroundColor = RandomColor;
+});
+
+// reset
+document.getElementById("reset").addEventListener("click", function () {
+    const Output = document.getElementById("ColorAndTitle");
+    Output.textContent = "hai";
+    Output.style.backgroundColor = "#FFFCF9"
 });
