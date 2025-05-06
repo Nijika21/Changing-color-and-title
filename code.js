@@ -30,7 +30,7 @@ function getRandomItem(array) {
     return array[Math.floor(Math.random() * array.length)];
 };
 
-// anti judul
+// ganti judul
 TitleButton.addEventListener('click', function() {
     let RandomTitle = getRandomItem(title);
     Output.textContent = RandomTitle;

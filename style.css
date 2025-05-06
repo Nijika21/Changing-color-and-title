@@ -20,13 +20,13 @@ body{
 }
 .output{
     height: 200px; 
-    width: 150px; 
+    width: 250px; 
     border: 2px black solid; 
     align-items: center; 
     justify-content: center; 
     display: flex;
     background-color: #FFFCF9;
-    transition: background-color 0.3s;
+    transition: all 0.3s ease;
     border: 4px #c5c5c5 solid;
     font-size: 2em;
     border-radius: 4px;
@@ -42,7 +42,26 @@ body{
 button{
     border: 2px gray solid;
     border-radius: 4px;
-    background-color: transparent;
+    background-color: #EBEBEB;
     cursor: pointer; 
     padding: 10px 20px;
+    transition: all 0,3 ease;
+}
+
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#reset:hover {
+    background-color: #D32F2F;
+    color: white;
+    border-color: #D32F2F;
+    transition: all 0.2s;
+}
+
+#title:hover, #color:hover {
+    background-color: #949494;
+    transition: all 0.2s;
+    border-color: #a0a0a0;
 }
